@@ -1,10 +1,11 @@
 <?php 
 $firstname = 'Jimmy';
 $lastname = 'Sotto';
-$fullname = $firstname . ' ' . $lastname;
-$fullname2 = $lastname . ', ' . $firstname;
+// $fullname = $firstname . ' ' . $lastname . ' Phd';
+$fullname = "{$firstname} {$lastname}";
+$fullname2 = "$lastname, {$firstname}";
 $age = 24;
-$message = $firstname . ' is ' . $age . ' years old.';
+$message = "{$firstname} is {$age} years old.";
 ?>
 <!DOCTYPE html>
 <html>
