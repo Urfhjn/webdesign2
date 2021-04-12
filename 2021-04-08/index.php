@@ -1,40 +1,31 @@
-<?php 
-$name = 'matthew';
-$level = 100;
-$total = 9.99;
-$is_female = true;  // boolean
-$noexistent = null; // null
-$score = null;
-
+<?php
+include 'blogposts.php';
+$page_title = 'Top 4 Books for 2020';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Array demo</title>
+    <title><?php echo $page_title; ?></title>
+    <?php include 'head.php' ?>
 </head>
 <body>
 
-    <h1>
-    <?php
-    // Array
-    $students = array('noella', 'felix', 'robert', 'miguel', 12, false, 9.99);
-    // $students[4] = 'Josh';
-    $students[0] = 'Eugene';
-    // $students[] = 'Ingrid';
-    // echo $students[count($students) - 1];
-    // echo $students[3];
+    <?php include 'header.php'; ?>
 
-    // Associative Array
-    $user = array(
-        'username'=>'Noella',
-        'gender'=>'female',
-        'level'=>12,
-        'change'=>9.99,
-    );
-    echo $user['username'];
-    echo $user['change'];
-    ?>
-    </h1>
+    <h1><?php echo $page_title; ?></h1>
+    <ol>
+<!--        <li>--><?php //echo $html; ?><!--</li>-->
+        <?php foreach($blogposts as $book): ?>
+            <li>
+                <?php echo $book['title']; ?>
+                <?php echo $book['author']; ?>
+            </li>
+        <?php endforeach; ?>
+    </ol>
+
+    <?php include 'sidebar.php'; ?>
+
+    <?php include 'footer.php'; ?>
 
 </body>
 </html>
