@@ -1,0 +1,17 @@
+GIT: Verion control system
+
+COMMANDS:
+git init: Set up git for your project. Only run once.
+git status: Show files watched by git
+git add: stage a file for a commit (called "staging")
+git commit: Make a commit in git (a snapshot of your code)
+git log: Show your past commits
+
+git checkout
+git branch: Default branch is "master" 
+
+Going back in time...permanently:
+git reset --hard HASHCODE
+
+Create new branch and move to that branch:
+git checkout -b BRANCHNAME
