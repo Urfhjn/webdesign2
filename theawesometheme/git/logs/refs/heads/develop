@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 f0428ad1eea70d8d3f8fbe52a743190ab7566222 enchance <enchance@gmail.com> 1619059634 +0800	branch: Created from HEAD
+f0428ad1eea70d8d3f8fbe52a743190ab7566222 1c2f0d47918d9f413f21d1a7c62e5c4dc90e01e9 enchance <enchance@gmail.com> 1619063790 +0800	commit: Basic template files created
+1c2f0d47918d9f413f21d1a7c62e5c4dc90e01e9 03734d527a599062672a29033bedf526a853b667 enchance <enchance@gmail.com> 1619098696 +0800	commit: README update
+03734d527a599062672a29033bedf526a853b667 c62080449c5bf5fe4797eef3e23aa3eed79aa4f1 enchance <enchance@gmail.com> 1619401972 +0800	commit: Integrate bootstrap into the theme
+c62080449c5bf5fe4797eef3e23aa3eed79aa4f1 aecc6d5db79fdc38b6bdb0672a91ce5f0a35dd6d enchance <enchance@gmail.com> 1619405031 +0800	commit: Add menu locations to both header and footer
+aecc6d5db79fdc38b6bdb0672a91ce5f0a35dd6d dc985230bf58980971dec2d4933ad7d8ac743757 enchance <enchance@gmail.com> 1619408234 +0800	commit: Add custom page templates
